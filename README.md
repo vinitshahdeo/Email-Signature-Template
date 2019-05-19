@@ -1,7 +1,6 @@
 # Email Signature Template
 
-Sometimes, creating an attractive email signature is essential. 
-Check an eye-catching HTML signature example to realize that the signature can be not boring, but eye-catching, elegant and recognizable.
+#### Sometimes, creating an attractive email signature is essential. Here's an eye-catching HTML signature example to realize that the signature can be not boring, but eye-catching, elegant and recognizable.
 
 ## Usage
 
@@ -18,6 +17,8 @@ open signature.html
 ```
 
 ## Signature Preview
+
+![email signature by Vinit Shahdeo](./preview.png)
 
 ## Demo
 
