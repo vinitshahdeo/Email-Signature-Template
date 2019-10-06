@@ -70,7 +70,31 @@
                </td>
             </tr>
          </table>
+         
          <p>-----<br><span style="font-family: Montserrat; opacity: 0.4;">Email signature template by Vinit Shahdeo</span></p>
+         <button style="background-color: mediumaquamarine" onclick="save()">Save Signature</button>
+         <button style="background-color: mediumaquamarine" onclick="erase()">Erase Signature</button>
+                 
+        <script>
+           
+         function save() {
+            writeFile(); 
+            document.querySelector("#savedmessage").innerHTML = "Note was manually saved..."
+            setTimeout(function() {
+                document.querySelector("#savedmessage").innerHTML = ""
+            }, 2000);
+        }
+        function writeFile() {
+                fs.writeFile('/note', document.querySelector('#notification').innerHTML, function (err) {
+                    if (err) throw err; 
+                    else {
+                        console.log("autosave")
+                    }
+                    });
+            }
+
+        
+      </script>
       </div>
    </body>
    <!--Made with love by Vinit Shahdeo-->
