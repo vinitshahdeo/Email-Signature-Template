@@ -34,10 +34,21 @@ Click [here](https://vinitshahdeo.github.io/Email-Signature-Template/src/signatu
 
 Click [here](https://vinitshahdeo.github.io/Email-Signature-Template) to view a sample email template with this signature.
 
+## Contributing
+
+[![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Email-Signature-Template?logo=github)](https://github.com/vinitshahdeo/Email-Signature-Template/issues) ![GitHub pull requests](https://img.shields.io/github/issues-pr/vinitshahdeo/Email-Signature-Template?color=blue&logo=github)
+
+- Fork/clone this repository.
+
+- **Add a new template for email signature.** Follow the same coding style as `index.html`.
+
+- Name your file as `new_template_your_github_username.html` and send the PR.
+
+
 ## Thanks
 
 Glad to see here! Show some love by [starring](https://github.com/vinitshahdeo/Email-Signature-Template/) this repository.
 
- [![Vinit Shahdeo](https://img.shields.io/badge/GitHub-@vinitshahdeo-follow.svg?logo=github&style=social)](https://github.com/vinitshahdeo) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo.svg?style=social)](https://twitter.com/Vinit_Shahdeo)
+[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Email-Signature-Template/links/7)
 
-
+[![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo.svg?style=social)](https://twitter.com/Vinit_Shahdeo)
