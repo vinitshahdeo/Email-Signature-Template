@@ -40,6 +40,10 @@ Click [here](https://vinitshahdeo.github.io/Email-Signature-Template) to view a 
 
 - Fork/clone this repository.
 
+```
+git clone https://github.com/vinitshahdeo/Email-Signature-Template.git
+```
+
 - **Add a new template for email signature.** Follow the same coding style as `index.html`.
 
 - Name your file as `new_template_your_github_username.html` and send the PR.
