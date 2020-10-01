@@ -1,0 +1,67 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Khand:400,600|Rock+Salt&display=swap');
+
+#signature {
+    font-family: 'Rock Salt', cursive;
+    color: steelblue;
+}
+
+.info {
+    font-family: 'Khand', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#jobinfo {
+    font-weight: 600;
+    padding: 5px 0px 10px 0px;
+}
+
+#square {
+  height: 7px;
+  width: 7px;
+  background: steelblue;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+    color: steelblue;
+}
+
+</style>
+
+<html>
+    <body>
+        <div id = "signature">Firstname Lastname</div>
+        <div id = "jobinfo" class = "info">
+            <div>Job Title&nbsp;&nbsp;</div>
+            <div id = "square"></div> 
+            <div>&nbsp;&nbsp;Company Name</div>  
+        </div>
+        <div id = "address" class = "info">
+            <div>Street Address&nbsp;&nbsp;</div>
+            <div id = "square"></div> 
+            <div>&nbsp;&nbsp;City, State, Zip</div> 
+        </div>
+        <div id = "contact" class = "info">
+            <div>XXX-XXX-XXXX&nbsp;&nbsp;</div>
+            <div id = "square"></div> 
+            <a href = "mailto: email@email.com">&nbsp;&nbsp;email@email.com</a>
+        </div>
+        <div id = "website" class = "info">
+            <a href="www.yourwebsitehere.com">www.yourwebsitehere.com</a>
+        </div>
+        <div id = "social">
+          <a href="https://www.twitter.com/yourtwitterhere"><img src="https://i.imgur.com/xNYhrlb.png"/>
+          <a href="https://www.instagram.com/yourinstagramhere"><img src="https://i.imgur.com/mwfJ4Pt.png"/>
+          <a href="https://www.github.com/yourgithubhere"><img src="https://i.imgur.com/AaFJpSf.png"/>
+        </div>
+    </body>
+</html>
