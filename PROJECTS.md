@@ -2,7 +2,7 @@
   </h1>
 <br><br>
 
-| :hash: | Project | Description | Repo Link |
+| :hash: | Project | Description | Repo Link ||
 |:--------:|---------|-------------|-----------|
 | :one: | [Job Tweets](https://vinitshahdeo.github.io/jobtweets/)| <br> [Twitter](https://twitter.com/Vinit_Shahdeo) **sentiment analysis** of tweets related to job opportunities using Python libraries: [Tweepy](https://github.com/vinitshahdeo/jobtweets#libraries-used) and [Textblob](https://github.com/vinitshahdeo/jobtweets#libraries-used) <br><br> | [@vinitshahdeo/jobtweets](https://github.com/vinitshahdeo/jobtweets) |
 | :two: | [Hashtagify](https://vinitshahdeo.github.io/Hashtagify/) | <br> Generates **#hashtags** for [Instagram](https://www.instagram.com/vinitshahdeo/) posts. Upload your photo and it will suggest the relevant #hashtags for you  <br><br> | [@vinitshahdeo/Hashtagify](https://github.com/vinitshahdeo/Hashtagify) |
