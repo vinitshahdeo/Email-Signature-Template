@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Email Signature Template</title>
+	</head>
+	<body>
+		<div style="border: 1px solid rgba(37, 201, 255,.5); display: inline-block; border-radius: 3px;">
+			<table style="font-family: arial; height:90px; border-collapse: collapse; border: ">
+				<tr>
+					<td style="padding: 7px">
+						<img src="https://avatars3.githubusercontent.com/u/17026924?s=460&v=4" 
+						alt="" 
+						width="80" 
+						height="80" 
+						style="display:block; border-radius: 50%; margin-right: 7px; float: left"
+						>
+					</td>
+					<td style="vertical-align:top; padding:7px 14px 7px 3px">
+						<strong style="margin: 0; font-size:17px; color: rgba(40, 45, 49,.9); line-height: 24px; height: 24px; display:block">John Doe</strong>
+						<p style='font-size:12px; margin: 0px 0 6px; height: 30px'>
+						<span style="margin: 0; color: #666">Director General (CEO)</span>
+						<br>
+						<a href='https://harrylepap.github.io' style="color: #25C9FF; font-weight: bold">https://harrylepap.github.io</a>
+						</p>
+						<div id="sociales" ></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<script>
+			let socials = {
+				  facebook: {
+					url: 'https://facebook.com/harrylepaphoa',
+					icon: 'https://drupal.ed.team/sites/default/files/social-icons/facebook-icon.png'
+				  } ,
+				  youtube: {
+					url: 'https://ed.team/youtube',
+					icon: 'https://drupal.ed.team/sites/default/files/social-icons/youtube-icon.png'
+				  },
+				  twitter: { 
+					url: 'https://ed.team/twitter',
+					icon: 'https://drupal.ed.team/sites/default/files/social-icons/twitter-icon.png'
+				  },
+				  linkedin: {
+					url: 'https://ed.team/linkedin',
+					icon: 'https://drupal.ed.team/sites/default/files/social-icons/linkedin-icon.png'
+				  },
+				  github: {
+					url: 'https://ed.team/github',
+					icon: 'https://drupal.ed.team/sites/default/files/social-icons/github-icon.png'
+				  } 
+				}
+
+			let socialIcons = '';
+			for(let social in socials) {
+			  socialIcons += `<a href="${socials[social].url}" style="display:inline-block;margin-right:6px"><img src="${socials[social].icon}" width="20" style="display: block"></a>`
+			}
+
+			document.getElementById('sociales').innerHTML = socialIcons;
+		</script>
+	</body>
+</html>
