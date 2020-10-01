@@ -49,7 +49,7 @@ git clone https://github.com/vinitshahdeo/Email-Signature-Template.git
 - Name your file as `new_template_your_github_username.html` and send the PR.
 
 
-## Thanks
+## Thanks!!
 
 Glad to see here! Show some love by [starring](https://github.com/vinitshahdeo/Email-Signature-Template/) this repository.
 
