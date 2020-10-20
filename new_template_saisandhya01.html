@@ -1,0 +1,137 @@
+<html>
+
+<head>
+    <title>Email Signature Template</title>
+    <meta name="author" content="Vinit Shahdeo">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Delius&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
+    <style type="text/css">
+        a.link {
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+        }
+
+        a {
+            color: #273746;
+        }
+
+        p {
+            font-family: 'Delius', cursive;
+        }
+
+        #sig {
+            font-family: 'Dosis', sans-serif;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ECEFF1;
+            width: 500px;
+            height: auto;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 50px;
+        }
+
+        .template {
+            width: 50%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+
+        .template>div {
+            margin-bottom: 12px;
+        }
+
+        #phone-number {
+            display: inline;
+        }
+
+        #phone-number-div {
+            font-family: 'Assistant', sans-serif;
+            font-size: 17px;
+        }
+
+        #best-regards {
+            font-family: 'Dancing Script', cursive;
+            font-size: 18px;
+            letter-spacing: 1.2px;
+        }
+
+        #name {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 22px;
+            letter-spacing: 1.3px
+        }
+
+        #position {
+            font-family: 'Inconsolata', monospace;
+            font-size: 18px;
+            letter-spacing: 1.4px;
+        }
+
+        #social-media-links {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #social-media-links>a {
+            font-size: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p><strong><code>To: lok@gmail.com</code></strong><br><br><strong>Hello Loki</strong>,</i><br><br>
+            Hope you are <del>doing</del> <strong>coding</strong> well!<br><br>
+            It has been so long we didn't meet, let's catch up tomorrow at <strong>Junk yard Alley</strong>,
+            Chennai 600108 <br><br>
+            Hope to see you there!
+        </p>
+        <div class="template">
+            <div id="best-regards">
+                Best Regards,
+            </div>
+            <div contenteditable="true" id="name">
+                John Doe
+            </div>
+            <div contenteditable="true" id="position">
+                SE Developer @ Facebook
+            </div>
+            <div id="phone-number-div">
+                Phone: <div contenteditable="true" id="phone-number">+91-1234567890</div>
+            </div>
+            <div id="social-media-links">
+                <a href="https://www.facebook.com"><i class="fa fa-facebook-official" style="color: #3b5998"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square" style="color:#0e76a8"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.github.com"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter-square" style="color:#00acee"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <p>-----<br>Email Template by saisandhya01</p>
+        <p>P.S: You can try editing the contents of the template by using your own details.</p>
+    </div>
+
+</body>
+
+</html>
