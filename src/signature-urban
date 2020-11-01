@@ -1,0 +1,23 @@
+<body>
+      <table cellspacing="0" cellpadding="0" border="0"> 
+       <tbody> 
+        <tr style="border-bottom: 2px solid black;display: block;"> 
+         <td style="padding-top: 5px; vertical-align: middle;line-height: normal;" valign="middle"> 
+          <table cellpadding="0" cellspacing="0" border="0"> 
+           <tbody> 
+            <tr> 
+             <td style=" padding-bottom: 0;line-height: normal; "> <font class="js-signature-name" style="  font-family: Tahoma;                      font-size: 16px;                      font-weight: bold;                      font-style: normal;                      font-stretch: normal;                      line-height: normal;                      letter-spacing: normal;                      color: #211600;" data-input="name" data-tab="info">Vinit Shahdeo</font> </td> 
+            </tr> 
+            <tr> 
+             <td style=" padding-bottom: 6px;line-height: normal;     padding-top: 3px;"> <font class="js-signature-jobtitle" data-input="jobtitle" data-tab="info" style="  font-family: Tahoma;                      font-size: 10px;                      font-weight: normal;                      font-style: normal;                      font-stretch: normal;                      line-height: normal;                      letter-spacing: normal;                      color: #000000;">SE Intern</font> <font class="js-signature-company-label" style="  font-family: Tahoma;                        font-size: 10px;                        font-weight: normal;                        font-style: normal;                        font-stretch: normal;                        line-height: normal;                        letter-spacing: normal;                        color: #000000;">at </font> <font class="js-signature-company" data-input="company" data-tab="info" style="  font-family: Tahoma;                        font-size: 10px;                        font-weight: normal;                        font-style: normal;                        font-stretch: normal;                        line-height: normal;                        letter-spacing: normal;                        color: #000000;"> POSTMAN </font> </td> 
+            </tr> 
+           </tbody> 
+          </table> </td> 
+         <td style="    padding-right: 5px;              height: 14px;              text-align: right;              padding-top: 10px;              vertical-align: initial;              padding-left: 20px;              line-height: normal;" align="right"> <a mc:disable-tracking="" style="text-decoration: none;" class="js-signature-social-facebook" href="https://www.facebook.com/fblink"> <img style="height: 14px; padding-right: 2px;" data-input="facebook" data-tab="social" src="https://res.cloudinary.com/honeybook/image/upload/q_auto/v1533683947/marketing_site/email-signature/social-icons/facebook_greyscale_1x.png"> </a> <a mc:disable-tracking="" style="text-decoration: none;" class="js-signature-social-twitter" href="https://www.twitter.com/twitterlink"> <img style="height: 14px; padding-right: 2px;" data-input="twitter" data-tab="social" src="https://res.cloudinary.com/honeybook/image/upload/q_auto/v1533683947/marketing_site/email-signature/social-icons/twitter_greyscale_1x.png"> </a> <a mc:disable-tracking="" style="text-decoration: none;" class="js-signature-social-linkedin" href="https://www.linkedin.com/in/linkedin"> <img style="height: 14px; padding-right: 2px;" data-input="linkedin" data-tab="social" src="https://res.cloudinary.com/honeybook/image/upload/q_auto/v1533683947/marketing_site/email-signature/social-icons/linkedin_greyscale_1x.png"> </a> </td> 
+        </tr> 
+        <tr style="border-bottom: 2px solid black;display: block;"> 
+         <td style="padding-top: 8px;  font-family: Arial; font-size: 10px; padding-bottom: 8px;line-height: normal;padding-right: 10px;"> <img class="js-signature-phone-label" width="16px" style="vertical-align: middle;" src="https://res.cloudinary.com/honeybook/image/upload/q_auto/v1533664171/marketing_site/email-signature/info-icons/phone_1_2x.png" alt="T: ">&nbsp; <a mc:disable-tracking="" class="js-signature-phone" data-input="phone" data-tab="info" href="tel:+91-8870855940" style="  font-family: Tahoma;                     font-size: 10px;                     font-weight: normal;                     font-style: normal;                     font-stretch: normal;                     line-height: normal;                     letter-spacing: normal;                     color: #000000; text-decoration: none;">+91-8870855940</a> </td> 
+        </tr>
+       </tbody> 
+      </table>
+ </body>
