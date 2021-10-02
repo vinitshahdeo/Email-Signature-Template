@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <title>Email Signature Template</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Noto Sans Display', sans-serif;
+    }
+
+    .container {
+        text-align: center;
+        margin: 25px auto;
+
+        width: 800px;
+        box-shadow: 0px 0px 10px 10px #b8b8b8;
+        ;
+
+    }
+
+    .new-message {
+        border: 2px solid black;
+        background: #434242;
+        text-align: left;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+    }
+
+    .icons i {
+        padding: 6px;
+    }
+
+    .to {
+        border-bottom: 2px solid #E0D9D9;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+    }
+
+    .to-contents {
+        padding: 6px;
+    }
+
+    .subject {
+        border-bottom: 2px solid #E0D9D9;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .email img {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        right: -60px;
+    }
+
+    .profile-pic img {
+        width: 200px;
+        border-radius: 30px;
+    }
+
+    .details-d1 {
+        line-height: 25px;
+        padding: 20px;
+    }
+
+    .details-address {
+        padding-bottom: 20px;
+    }
+
+    .contact-me i {
+        padding-left: 15px;
+    }
+
+    .details {
+        padding-bottom: 15px;
+    }
+
+    a:link {
+        color: black;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    a:hover {
+        color: #434242;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="new-message">New Message
+            <div class="icons">
+                <i class="fas fa-minus"></i>
+                <i class="fas fa-compress-alt"></i>
+                <i class="fas fa-window-close"></i>
+            </div>
+        </div>
+        <header>
+            <div class="to">To
+                <div class="to-contents">
+                    CC Bcc
+                </div>
+            </div>
+            <div class="subject">Subject</div>
+        </header>
+        <div class="logo">
+            <div class="dot">----</div>
+            <div class="email">
+                <img src="./gmail.png" alt="gmail">
+            </div>
+        </div>
+        <div class="content">
+            <div class="profile-pic">
+                <img src="./me.jpg" alt="profilepic">
+            </div>
+            <div class="details">
+                <div class="details-d1">
+                    <h2>Rajeet Chaudhary</h2>
+                    <h4>Software Development Enginner, Google</h4>
+                </div>
+                <div class="details-address">
+                    +123-456-789<br>
+                    123 Lawreence Street,Brooklyn,New York<br>
+                    rajeet@gmail.com<br>
+                    ww.raj.com
+                </div>
+                <div class="contact-me">
+                    <a href="https://www.linkedin.com/in/rajeet-10/"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100007906516667"><i
+                            class="fab fa-facebook-square fa-3x"></i></a>
+                    <a href="https://www.instagram.com/c.rajeet/"><i class="fab fa-instagram fa-3x"></i></a>
+                    <a href="https://github.com/Rajeet10"> <i class="fab fa-github-square fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
