@@ -1,0 +1,39 @@
+.container {
+    background-color: #03121d;
+    color: rgb(243, 237, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+    margin-top: 120px;
+    margin-left: 270px;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 250px;
+    line-height: 1.5;
+    color: rgb(243, 237, 227);
+}
+
+a.link {
+    margin:0;
+    padding:0;
+    border:none;
+    text-decoration:none;
+}
+
+a {
+    color:#c5d2e6;
+}
+
+p {
+    font-family: 'Delius', cursive;
+    width: 300px;
+}
+
+#sig {font-family: 'Dosis', sans-serif;}
