@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #7681B3;
+}
+
+.presentational-container {
+  padding: 20px;
+  box-shadow: 2px 2px 10px 5px;
+  background-color: #fff;
+}
+
+table {
+  background: none;
+  margin: 0;
+  padding: 10px 10px 0;
+  border-width: 3px 2 2;
+  border-style: solid;
+  border-color: #232C9F;
+}
+
+tr.outer-row td.headshot-cell {
+  padding: 0 12px 0 0;
+}
+
+td.headshot-cell a {
+  text-decoration: none;
+}
+
+td.headshot-cell img {
+  vertical-align: middle;
+  width:120px;
+  border-radius: 100%;
+}
+
+td.description-cell {
+  padding: 0 0 0 12px;
+}
+
+td.description-cell > table {
+  background: none;
+  border: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+td.full-name {
+  font-weight: bold;
+  color: #232C9F;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td.title {
+  padding-bottom: 10px;
+  color: #333333;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td.website {
+  padding-bottom: 10px;
+  vertical-align: top;
+  color: #333333;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td.website a {
+  color: #4BAFDB;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+td.social-icons {
+  padding-top: 5px;
+}
+
+td.social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+
+td.social-icons li {
+  display: inline-block;
+}
+
+td.social-icons a {
+  text-decoration: none;
+}
+
+td.social-icons img {
+  width: 25px;
+  height: 25px;
+}
