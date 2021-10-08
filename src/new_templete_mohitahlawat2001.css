@@ -17,7 +17,7 @@ table {
   background: none;
   margin: 0;
   padding: 10px 10px 0;
-  border-width: 3px 0 0 0;
+  border-width: 3px 2 2 2;
   border-style: solid;
   border-color: #232C9F;
 }
@@ -42,7 +42,7 @@ td.description-cell {
 
 td.description-cell > table {
   background: none;
-  border: 0px;
+  border: 1px;
   margin: 0;
   padding: 0;
 }
