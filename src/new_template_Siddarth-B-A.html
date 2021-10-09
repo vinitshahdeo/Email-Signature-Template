@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/8513276973.js" crossorigin="anonymous"></script>
+	<title>Email Signature Template</title>
+	<!-- STYLING -->
+	<style type="text/css">
+		* {
+			margin: 0;
+			box-sizing: border-box;
+			text-decoration: none;
+			font-family: Arial, Helvetica, sans-serif;
+			transition: all 0.2s linear;
+		}
+
+		.box-container {
+			min-height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #ccc;
+		}
+
+		.box-container .box {
+			width: 700px;
+			background: #1c2d3f;
+			border-radius: 10px;
+			overflow: hidden;
+			box-shadow: 0 5px 10px #0007;
+			display: flex;
+			align-items: center;
+			margin: 20px;
+		}
+
+		.box-container .box .starter {
+			color: #fff;
+			margin: -10px 0 0 15px;
+		}
+
+		.box-container .box .starter .toMsg {
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+
+		.box-container .box .starter .toMsg span {
+			color: #e91e63;
+			font-weight: 600;
+		}
+
+		.box-container .box .starter .msgTitle {
+			font-size: 22px;
+			margin: 10px 0 15px 0;
+		}
+
+		.box-container .box .starter .msgSub {
+			font-size: 22px;
+			margin-bottom: 15px;
+		}
+
+		.box-container .box .starter .msgBody {
+			font-size: 22px;
+			margin-bottom: 7px;
+		}
+
+		.box-container .box .starter .msgBody strong {
+			color: #e91e63;
+		}
+
+		.box-container .box .starter .msgConclude {
+			font-size: 22px;
+			margin-top: 10px;
+		}
+
+		.box-container .box .content {
+			display: flex;
+			padding: 0 10px;
+		}
+
+		.box-container .box .content .icons {
+			background: #fff;
+			margin: 0px 10px;
+		}
+
+		.box-container .box .content .icons i {
+			font-size: 20px;
+			margin: 10px 13px;
+			color: #e91e63;
+			display: block;
+			margin-top: 45px;
+		}
+
+		.box-container .box .content .icons i:first-child {
+			margin-bottom: 126px;
+		}
+
+		.box-container .box .content .info h5 {
+			color: #fff;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		.box-container .box .content .info .title {
+			font-size: 36px;
+			color: #e91e63;
+			padding: 5px 0;
+			text-transform: capitalize;
+			margin-bottom: 15px;
+		}
+
+		.box-container .box .content .info .post {
+			display: block;
+			font-size: 18px;
+			color: #ccc;
+			padding-bottom: 32px;
+		}
+
+		.box-container .box .content .info div {
+			display: block;
+			color: #fff;
+			padding: 6px 0;
+			margin-top: -8px;
+		}
+
+		.box-container .box .content .info span {
+			color: rgb(145, 143, 143);
+			margin-top: 18px;
+		}
+
+		.box-container .box .share {
+			height: 274px;
+			background: #fff;
+			padding: 0 7px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-flow: column;
+			margin-left: auto;
+		}
+
+		.box-container .box .share a {
+			margin: 10px;
+			font-size: 23px;
+			color: #666;
+		}
+
+		.box-container .box .share a:hover {
+			color: #e91e63;
+		}
+
+		#phNum {
+			color: #e91e63;
+		}
+
+		/* RESPNSIVENESS */
+
+		@media (max-width: 700px) {
+			.box-container .box {
+				flex-flow: column;
+				width: 340px;
+			}
+
+			.box-container .box .starter {
+				color: #fff;
+				margin: 10px 0 0 15px;
+			}
+
+			.box-container .box .content {
+				padding: 30px 5px;
+			}
+
+			.box-container .box .share {
+				flex-flow: row;
+				height: auto;
+				width: 100%;
+				padding: 5px 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="box-container">
+		<div class="box">
+			<div class="starter">
+				<div class="toMsg">
+					To: <span>sherry@gmail.com</span>
+				</div>
+				<div class="msgTitle">
+					Hello Sherry,
+				</div>
+				<div class="msgSub">
+					Hope you are coding well!
+				</div>
+				<div class="msgBody">
+					It has been so long we didn't meet, let's catch up tomorrow at <strong> Vapour Brew & Pub</strong> ,
+					Indiranagar 560038
+				</div>
+				<div class="msgConclude">
+					Hope to see you there!
+				</div>
+			</div>
+			<div class="content">
+				<div class="icons">
+					<i class="fas fa-user"></i>
+					<i class="fas fa-phone"></i>
+				</div>
+				<div class="info">
+					<h5>Best Regards,</h5>
+					<h3 class="title">VINEET SHAHDEO</h3>
+					<span class="post">SE Intern | POSTMAN</span>
+					<div>
+						<span id="phNum">+91-8870855940</span>
+					</div>
+					<span>Email signature template by Siddarth Ambannavar</span>
+				</div>
+			</div>
+			<div class="share">
+				<a target="_blank" href="https://www.facebook.com/vinit.shahdeo"><i
+						class="fab fa-facebook-square"></i></a>
+				<a target="_blank" href="https://twitter.com/Vinit_Shahdeo"><i class="fab fa-twitter-square"></i></a>
+				<a target="_blank" href="https://github.com/vinitshahdeo"><i class="fab fa-github"></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/vinitshahdeo/"><i class="fab fa-linkedin"></i></a>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</body>
+<!--Made with love by Siddarth Ambannavar-->
+
+</html>
