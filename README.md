@@ -10,4 +10,4 @@
 
 ### Small Screen
 
-<img style="text-align: center" src="./uploads/sm.png" height="20%" width="20%">
+<img style="display: flex; justify-content: center; align-items: center" src="./uploads/sm.png" height="20%" width="20%">
