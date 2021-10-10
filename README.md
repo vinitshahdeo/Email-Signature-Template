@@ -6,6 +6,8 @@
 
 ### Large Screen
 
-<img src="./uploads/lg.png" height="50%" width="50%"> <img src="./uploads/sm.png" height="50%" width="50%">
+<img src="./uploads/lg.png" height="100%" width="100%">
 
 ### Small Screen
+
+<img src="./uploads/sm.png" height="20%" width="20%">
