@@ -1,0 +1,20 @@
+{
+  "name": "email-signature-template",
+  "version": "1.0.0",
+  "description": "[![email](https://img.shields.io/static/v1.svg?label=Email&message=Signature&color=grey&logo=gmail&style=flat&logoColor=white&colorA=critical)](https://github.com/vinitshahdeo/Email-Signature-Template/) [![outlook](https://img.shields.io/static/v1.svg?label=Outlook&message=Template&color=grey&logo=microsoft-outlook&style=flat&logoColor=white&colorA=dodgerblue)](https://github.com/vinitshahdeo/Email-Signature-Template/) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Email-Signature-Template.svg?logo=github&style=flat&colorB=teal)](https://github.com/vinitshahdeo/Email-Signature-Template/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heeba-khan/Email-Signature-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heeba-khan/Email-Signature-Template/issues"
+  },
+  "homepage": "https://github.com/heeba-khan/Email-Signature-Template#readme"
+}
